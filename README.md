@@ -17,6 +17,7 @@ python scambrawl.py
 
 Как исправить ошибку Telebot object has no attribute
 message_handler:
+
 pip3 uninstall telebot
 pip3 uninstall PyTelegramBotAPI
 pip3 install pyTelegramBotAPI
